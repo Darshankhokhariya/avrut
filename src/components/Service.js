@@ -8,7 +8,7 @@ function Service() {
 },[]);
     return (
         <>
-            <section className="text-gray-600 body-font animate__animated animate__fadeInup overflow-x-hidden">
+            <section className="text-gray-600 body-font animate__animated animate__fadeInup">
                 <div className="container px-20  py-5 mx-auto">
                     <div className="container mx-auto ">
                         <div className="flex flex-col lg:text-center text-center w-full mt-5 mb-10 sm:mt-20 lg:ml-3 ">

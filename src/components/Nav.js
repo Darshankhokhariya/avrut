@@ -58,7 +58,7 @@ function Nav() {
                 {/* Page Header */}
                 <header id="page-header" className="flex flex-none items-center z-20  fixed w-full ">
                     <div className="container mx-auto" >
-                        <div className="flex justify-between py-4 px-4 bg-white bg-transparent d">
+                        <div className="flex justify-between py-2 px-4 bg-white bg-transparent d">
                             {/* Left Section */}
                             <div className="flex items-center">
                                 {/* Logo */}

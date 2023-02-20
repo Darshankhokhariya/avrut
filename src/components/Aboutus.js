@@ -11,7 +11,7 @@ function Aboutus() {
 
     return (
         <> 
-            <div className='z-10 animate__animated animate__fadeInUp dark:text-white dark:bg-black'>
+            <div className='z-10 animate__animated animate__fadeInUp dark:text-white dark:bg-black mt-10'>
                 <div className='container lg:px-28 px-10 grid justify-items-center m-auto lg:grid-cols-2 grid-cols-1 py-20  animation' >
                     <div className='flex items-center lg:text-4xl text-2xl font-semibold lg:text-center'>
                         5+ years of successful projects and digital expertise that we can’t wait to share with you.
