@@ -9,7 +9,7 @@ function Service() {
     return (
         <>
             <section className="text-gray-600 body-font animate__animated animate__fadeInup">
-                <div className="container px-20  py-5 mx-auto">
+                <div className="container px-20  py-5 mx-auto overflow-x-hidden">
                     <div className="container mx-auto ">
                         <div className="flex flex-col lg:text-center text-center w-full mt-5 mb-10 sm:mt-20 lg:ml-3 ">
                             <h2 className="lg:text-xl text-black tracking-widest font-medium title-font mb-1 lg:ml-1 dark:text-white animation" data-aos="fade-right">SERVICES</h2>
