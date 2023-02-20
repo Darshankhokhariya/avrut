@@ -9,7 +9,7 @@ function Culture() {
                 <div className="animation" data-aos="fade-right">
                     <img src={require('../images/culture.jpg')} className='lg:h-[650px] lg:w-[700px] object-cover' alt="" />
                 </div>
-                <div className='mt-5 animation' data-aos="fade-left">
+                <div className='mt-5 animation sm:px-5' data-aos="fade-left">
                     <div className='lg:mb-10'>CULTURE</div>
                     <div className='lg:text-7xl text-base font-bold  leading-tight'>Approach <br/>
                         The Unknown</div>

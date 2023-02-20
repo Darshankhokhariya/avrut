@@ -54,7 +54,7 @@ function Nav() {
     return (
         <>
             {/* Page Container */}
-            <div id="page-container" className="flex flex-col mx-auto sticky top-0 z-10 w-full  dark:bg-red-100 bg-white">
+            <div id="page-container" className="flex flex-col mx-auto sticky top-0 z-10 w-full  dark:bg-black  bg-white">
                 {/* Page Header */}
                 <header id="page-header" className="flex flex-none items-center z-20  w-full h-20 ">
                     <div className="container mx-auto" >
