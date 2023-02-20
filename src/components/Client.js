@@ -3,8 +3,8 @@ import React from 'react'
 function Client() {
     return (
         <div>
-            <section className="text-black body-font">
-                <div className="container px-10 lg:py-28 py-20 mx-auto flex items-center md:flex-row flex-col overflow-x-hidden">
+            <section className="text-black body-font  overflow-x-hidden">
+                <div className="container px-10 lg:py-28 py-20 mx-auto flex items-center md:flex-row flex-col">
                     <div className="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full  md:text-left text-center dark:text-white animation" data-aos="fade-in-right">
                         <h2 className="text-xs tracking-widest font-medium title-font mb-1">CLIENTS & FRIENDS</h2>
                         <h1 className="md:text-5xl text-2xl font-medium title-font">We've worked with lovely clients</h1>

@@ -13,7 +13,7 @@ function Home() {
             <Slider/>
             <Hero/>
             <Sample/>
-            {/* <Service/> */}
+            <Service/>
             <Culture/>
             {/* <Client/> */}
             <Testimonial/>
