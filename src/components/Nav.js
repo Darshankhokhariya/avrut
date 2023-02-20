@@ -54,19 +54,19 @@ function Nav() {
     return (
         <>
             {/* Page Container */}
-            <div id="page-container" className="flex flex-col mx-auto w-full  sticky top-0 z-10  ">
+            <div id="page-container" className="flex flex-col mx-auto sticky top-0 z-10 w-full  dark:bg-red-100 bg-white">
                 {/* Page Header */}
-                <header id="page-header" className="flex flex-none items-center z-20  w-full ">
+                <header id="page-header" className="flex flex-none items-center z-20  w-full h-20 ">
                     <div className="container mx-auto" >
-                        <div className="flex justify-between px-4 bg-white bg-transparent ">
+                        <div className="flex justify-between px-4  bg-transparent ">
                             {/* Left Section */}
                             <div className="flex items-center">
                                 {/* Logo */}
                                 <Link to='/'>
-                                    <a href="#" className="group inline-flex items-center space-x-2 font-bold text-lg tracking-wide text-gray-700 active:text-gray-700 no-underline" onClick={hswitch}>
+                                    <a href="#" className="group inline-flex items-center font-bold text-lg tracking-wide text-gray-700 active:text-gray-700 no-underline " onClick={hswitch}>
                                         <span>
                                             {logo ?
-                                                <img src={require('../images/logo3.png')} alt="" width='120px' className='mx-3' />
+                                                <img src={require('../images/logo3.png')} alt="" width='90px'className='mx-3' />
                                                 : <img src={require('../images/logo3.png')} alt="" width='120px' className='mx-3' />
                                             }
                                         </span>

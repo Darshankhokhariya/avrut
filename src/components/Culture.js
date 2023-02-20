@@ -5,7 +5,7 @@ function Culture() {
         <>
 
 
-            <div className="grid lg:grid-cols-2   sm:grid-cols-1 mt-10  place-items-center">
+            <div className="grid lg:grid-cols-2   sm:grid-cols-1 mt-10  place-items-center overflow-x-hidden">
                 <div className="animation" data-aos="fade-right">
                     <img src={require('../images/culture.jpg')} className='lg:h-[650px] lg:w-[700px] object-cover' alt="" />
                 </div>

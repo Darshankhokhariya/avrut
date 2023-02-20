@@ -22,7 +22,7 @@ function Hero() {
                         <h1 className="text-3xl lg:text-6xl  font-medium title-font mb-4 text-gray-900 dark:text-white">Make it simple <br /> but significant</h1>
                     </div>
                 </div>
-                <div className="container mx-auto px-20 grid lg:grid-cols-3 grid-cols-1 sm:justify-items-center">
+                <div className="container mx-auto px-20 grid lg:grid-cols-3 grid-cols-1 sm:justify-items-center ">
                     <div className="p-4 mb-6 animation" data-aos="fade-down">
                         <h2 className="text-xl font-medium title-font text-gray-900 mt-5 dark:text-white">Our Mission</h2>
                         <p className="text-base leading-relaxed mt-2">To reach all over the world and serve them with best and quality work. All clients should get appropriate and impose work. Delemont always try to come up with inventive things so that clients will get something new and divergent work which they have not thought about before.</p>

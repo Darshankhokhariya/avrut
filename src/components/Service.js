@@ -8,15 +8,15 @@ function Service() {
 },[]);
     return (
         <>
-            <section className="text-gray-600 body-font animate__animated animate__fadeInup">
-                <div className="container px-20  py-5 mx-auto">
+            <section className="text-gray-600 body-font animate__animated animate__fadeInup overflow-x-hidden">
+                <div className="container px-20 py-5 mx-auto">
                     <div className="container mx-auto ">
                         <div className="flex flex-col lg:text-center text-center w-full mt-5 mb-10 sm:mt-20 lg:ml-3 ">
                             <h2 className="lg:text-xl text-black tracking-widest font-medium title-font mb-1 lg:ml-1 dark:text-white animation" data-aos="fade-right">SERVICES</h2>
                             <h1 className="lg:text-4xl  text-2xl   font-medium title-font mb-4 text-gray-900 dark:text-white animation"data-aos="fade-left">A Wide Range of <br /> Services</h1>
                         </div>
                     </div>
-                    <div className="flex flex-wrap  sm:-m-4 -mx-20 -mb-10 -mt-4 md:space-y-0 space-y-6">
+                    <div className="flex flex-wrap  sm:-m-4 -mx-20 -mb-10 -mt-4 md:space-y-0 space-y-6 ">
                         <div className="p-4 md:w-1/3 flex flex-col  text-center items-center animation" data-aos="flip-down">
                             <div className="w-20 h-20 shadow-md inline-flex animate-pulse items-center justify-center  rounded-full bg-gray-100 text-black mb-5 flex-shrink-0 animation" data-aos="flip-up">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-edit size-md str-width-md text-accent"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
