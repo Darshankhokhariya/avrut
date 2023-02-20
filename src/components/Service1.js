@@ -13,13 +13,13 @@ function Service1() {
     return (
         <>
 
-            <div className="container px-20 py-10 mx-auto animate__animated animate__fadeInUp text-black dark:bg-black dark:text-white mt-20 overflow-x-hidden">
+            <div className="container px-20 py-10 mx-auto animate__animated animate__fadeInUp text-black dark:bg-black dark:text-white mt-20">
                 <div class="flex flex-col text-start w-full mb-20 lg:ml-28 overflow-x-hidden">
                     <h2 class="text-xs tracking-widest font-medium title-font mb-1">SERVICE</h2>
                     <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 mt-3">We develop creative solutions</h1>
                 </div>
-                <div className="flex flex-wrap  sm:-m-4 -mx-20 -mb-10 -mt-4 ">
-                    <div className="p-4 md:w-1/3 flex flex-col  text-center items-center overflow-x-hidden">
+                <div className="flex flex-wrap  sm:-m-4 -mx-20 -mb-10 -mt-4 overflow-x-hidden">
+                    <div className="p-4 md:w-1/3 flex flex-col  text-center items-center ">
                         <div className="w-20 h-20 shadow-md inline-flex animate-pulse items-center justify-center rounded-full bg-gray-100 text-black mb-5 flex-shrink-0">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-edit size-md str-width-md text-accent"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
                         </div>
@@ -52,8 +52,8 @@ function Service1() {
 
             {/* design */}
 
-            <section class="text-black dark:text-white body-font overflow-hidden">
-                <div class="container py-10 mx-auto">
+            <section class="text-black dark:text-white body-font ">
+                <div class="container py-10 mx-auto overflow-x-hidden">
                     <div class="justify-items-center grid lg:grid-cols-2 grid-cols-1 px-10">
                         <img alt="ecommerce" class=" lg:w-[600px] w-full lg:h-[500px] lg:px-2 px-3 h-64 object-cover object-center rounded animation" data-aos="fade-right"   src={require('../images/service1.jpg')} />
                         <div class="lg:w-1/2 w-full lg:justify-self-start  lg:ml-20 lg:px-2 px-3  mt-6 lg:mt-0 animation" data-aos="fade-left"   >
@@ -94,7 +94,7 @@ function Service1() {
             {/* devlop */}
 
             <section class="text-black dark:text-white body-font ">
-                <div class="container py-10 mx-auto">
+                <div class="container py-10 mx-auto overflow-x-hidden">
                     <div class="justify-items-center grid lg:grid-cols-2 grid-cols-1 px-10">
                         <div class="lg:w-1/2 w-full lg:justify-self-end lg:mr-20  lg:px-2 px-3  mt-6 lg:mt-0 animation" data-aos="fade-right">
                             <div className=''>
@@ -131,7 +131,7 @@ function Service1() {
             {/* branding */}
 
             <section class="text-black dark:text-white body-font overflow-hidden">
-                <div class="container py-10 mx-auto">
+                <div class="container py-10 mx-auto overflow-x-hidden">
                     <div class="justify-items-center grid lg:grid-cols-2 grid-cols-1 px-10">
                         <img alt="ecommerce" class=" lg:w-[600px] w-full lg:h-[500px] lg:px-2 px-3 h-64 object-cover object-center rounded animation" data-aos="fade-right"   src={require('../images/service3.jpg')} />
                         <div class="lg:w-1/2 w-full lg:justify-self-start  lg:ml-20 lg:px-2 px-3  mt-6 lg:mt-0 animation" data-aos="fade-left"  >
