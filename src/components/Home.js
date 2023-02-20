@@ -11,9 +11,9 @@ function Home() {
     return (
         <>        
             <Slider/>
-            {/* <Hero/> */}
-            {/* <Sample/> */}
-            {/* <Service/> */}
+            <Hero/>
+            <Sample/>
+            <Service/>
             <Culture/>
             <Client/>
             <Testimonial/>

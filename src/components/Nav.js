@@ -54,11 +54,11 @@ function Nav() {
     return (
         <>
             {/* Page Container */}
-            <div id="page-container" className="flex flex-col mx-auto w-full  ">
+            <div id="page-container" className="flex flex-col mx-auto w-full  sticky top-0 z-10  ">
                 {/* Page Header */}
-                <header id="page-header" className="flex flex-none items-center z-20  fixed w-full ">
+                <header id="page-header" className="flex flex-none items-center z-20  w-full ">
                     <div className="container mx-auto" >
-                        <div className="flex justify-between py-2 px-4 bg-white bg-transparent d">
+                        <div className="flex justify-between px-4 bg-white bg-transparent ">
                             {/* Left Section */}
                             <div className="flex items-center">
                                 {/* Logo */}
@@ -67,7 +67,7 @@ function Nav() {
                                         <span>
                                             {logo ?
                                                 <img src={require('../images/logo3.png')} alt="" width='120px' className='mx-3' />
-                                                : <img src={require('../images/logo2.png')} alt="" width='120px' className='mx-3' />
+                                                : <img src={require('../images/logo3.png')} alt="" width='120px' className='mx-3' />
                                             }
                                         </span>
                                     </a>
